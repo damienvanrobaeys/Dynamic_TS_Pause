@@ -1,0 +1,12 @@
+Integrate all files in your boot image:
+- run_keys.cmd
+- TS_Pause.exe
+- winpe_keys.exe
+- winpeshl.ini
+
+When PE is loaded this will proceed as below:
+1) Run winpeshl.ini
+2) winpeshl.ini will run run_keys.cmd
+3) run_keys.cmd will run in background winpe_keys.exe
+4) winpe_keys.exe will add keyboard shortcut
+5) TS_Pause.exe will be laucnhed after clicking on F4
